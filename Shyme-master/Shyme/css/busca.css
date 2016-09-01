@@ -1,0 +1,17 @@
+.grupo-link, .groud-link:after {
+    display: block;
+    background-color: #efefef;
+    padding: 30px 5px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+.grupo-link:hover {
+    background-color: #ddd;
+    text-decoration: none;
+}
+
+.row, .grupo-link {
+    margin-top: 20px;
+    
+}

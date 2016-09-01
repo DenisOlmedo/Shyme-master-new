@@ -1,0 +1,59 @@
+.titulo, .span-tipo-post{
+    clear: both;
+}
+.post-objeto, .btn-shyme-default, .objeto-postar {
+    margin-bottom: 20px;
+}
+.post-objeto {
+    padding: 20px;
+    background-color: #EDEFF1;
+}
+.objeto-postar {
+    padding: 10px;
+    margin-left: 30px;
+    background-color: #dedede;
+}
+.objeto-postar input[type="text"] {
+    width: 90%;
+    padding: 50px 10px;
+    margin-bottom: 10px;
+}
+.span-tipo-post {
+    float: right;
+    color: #bbb;
+    font-size: 14px;
+}
+.btn-shyme-avaliar {
+    border: 1px solid #71BCEE;
+    border-radius: .7em;
+    background-color: white;
+    color: #71BCEE;
+    font-weight: bold;
+}
+
+.btn-shyme-default {
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: #34CA3B;
+}
+
+.btn-shyme-default:hover {
+    background-color: #49CE50;
+    color: white;
+    transition: all 0.2s;
+}
+
+.btn-shyme-avaliar:hover {
+    color: #2095E3;
+    border: 1px solid #2095E3;
+    transition: all 0.4s;
+}
+
+.objeto-postar .btn-shyme-default {
+    float: right;
+}
+/*
+#71BCEE claro
+#2095E3 padrao
+*/
